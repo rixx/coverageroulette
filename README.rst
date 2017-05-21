@@ -15,6 +15,4 @@ Usage::
     Write a test covering line 127 in file "foo/bar/baz/cookie.py"!
 
 
-You'll need to install lxml for this to work.
-
 .. _coverage.py: https://coverage.readthedocs.io/en/coverage-4.4.1/

@@ -2,7 +2,10 @@ import random
 import sys
 from collections import namedtuple
 
-from lxml import etree
+try:
+    from lxml import etree
+except ImportError:
+    import xml.etree.ElementTree as etree
 
 
 Entry = namedtuple('Entry', ['filename', 'line', 'length'])
